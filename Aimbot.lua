@@ -96,7 +96,7 @@ getgenv().ExunysDeveloperAimbot = {
 	Settings = {
 		Enabled = true,
 
-		TeamCheck = false,
+		TeamCheck = true,
 		AliveCheck = true,
 		WallCheck = false,
 
@@ -397,5 +397,6 @@ end
 Environment.Load = Load -- ExunysDeveloperAimbot.Load()
 
 setmetatable(Environment, {__call = Load})
+
 
 return Environment
